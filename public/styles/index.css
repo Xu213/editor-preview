@@ -1,0 +1,12 @@
+@import "./amis-confirm.css";
+@import "./amis-drawer.css";
+@import "./amis_crud.css";
+@import "./amis_dialog.css";
+
+.cxd-Page-body {
+  background: red !important;
+}
+
+.cxd-Card-action {
+  background: red !important;
+}
