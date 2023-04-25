@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "nndev": "node scripts/start.js",
-    "nnbuild": "node scripts/build.js --max_old_space_size=8192",
+    "dev": "node scripts/start.js",
     "start": "serve -s build",
+    "nnbuild": "node scripts/build.js --max_old_space_size=8192",
     "nntest": "node scripts/test.js",
     "nnrimraf": "rimraf ./node_modules",
     "nnclean": "rimraf types lib esm build",
