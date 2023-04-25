@@ -5,11 +5,11 @@
   "scripts": {
     "dev": "node scripts/start.js",
     "start": "serve -s build",
-    "nnbuild": "node scripts/build.js --max_old_space_size=8192",
-    "nntest": "node scripts/test.js",
-    "nnrimraf": "rimraf ./node_modules",
-    "nnclean": "rimraf types lib esm build",
-    "nnrollup": "cross-env NODE_ENV=production rollup -c --max_old_space_size=16000 "
+    "build": "node scripts/build.js --max_old_space_size=8192",
+    "test": "node scripts/test.js",
+    "rimraf": "rimraf ./node_modules",
+    "clean": "rimraf types lib esm build",
+    "rollup": "cross-env NODE_ENV=production rollup -c --max_old_space_size=16000 "
   },
   "dependencies": {
     "@babel/core": "^7.16.0",

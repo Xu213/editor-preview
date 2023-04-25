@@ -12,7 +12,7 @@ interface RouterRule extends RouteObjectRule {
 export const routes: RouterRule[] = [
     {
         path: "/*",
-        redirect: "/preview",
+        redirect: "/editor",
     },
     {
         path: "/editor",
